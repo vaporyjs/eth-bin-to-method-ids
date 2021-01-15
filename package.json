@@ -1,5 +1,5 @@
 {
-  "name": "eth-bin-to-method-ids",
+  "name": "vap-bin-to-method-ids",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eth-bin-to-ops": "^1.0.1",
-    "ethereumjs-abi": "^0.6.4"
+    "vap-bin-to-ops": "^1.0.1",
+    "vaporyjs-abi": "^0.6.4"
   },
   "devDependencies": {
     "tape": "^4.8.0"

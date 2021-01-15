@@ -1,4 +1,4 @@
-const binToOps = require('eth-bin-to-ops')
+const binToOps = require('vap-bin-to-ops')
 
 const finalOps = ['JUMP', 'STOP', 'INVALID', 'REVERT']
 

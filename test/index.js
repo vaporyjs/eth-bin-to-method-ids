@@ -4,7 +4,7 @@ const omiseGoTokenBin = require('./contracts/OmiseGo_Token.bin')
 const omiseGoTokenAbi = require('./contracts/OmiseGo_Token.json')
 const ensRegistrarBin = require('./contracts/EnsRegistrar.bin')
 const ensRegistrarAbi = require('./contracts/EnsRegistrar.json')
-const abiUtils = require('ethereumjs-abi')
+const abiUtils = require('vaporyjs-abi')
 
 test('omisego token test', (t) => {
   runTest(t, omiseGoTokenAbi, omiseGoTokenBin)
